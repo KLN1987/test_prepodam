@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Преподам - образовательная онлайн платформа</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700,800&display=swap&subset=cyrillic"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <link href="css/owl.carousel.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="header__opacity">
+      <div class="container">
+        <div class="header__navigation">
+          <a href="#" class="logo header__logo">
+            <img src="img/logo.png" class="logo-image header__logo-image" width="88" height="88" alt=logo>
+          </a>
+          <span class="city header__city">Москва</span>
+            <div class="phone">
+              <img class="pnone__image" src="img/telefon.svg" width="14" height="14" alt="icon-phone">
+              <span class="phone__number">+7 800-562-3452</span>
+            </div>
+            <div class="mobile-menu">
+            <div class="nav">
+              <a href="#" class="nav__item">О проекте</a>
+              <a href="#" class="nav__item">Онлайн-курсы</a>
+              <a href="#" class="nav__item">Статьи</a>
+            </div>
+            <button class="button button-teachers"><span class="button__text">Преподавателям</span></button>
+          </div>
+            <div class="header__buttons">
+              <button class="button button-registration"><span
+                  class="button__text registration-text">Регистрация</span></button>
+              <button class="button button-enter"><span class="button__text enter-text">Вход</span></button>
+            </div>
+
+          <button class="button-burger button-open"></button>
+        </div>
+
+        <div class="description">
+          <h1 class="description__header"><strong>Первая</strong> образовательная<br>онлайн-платформа,<br>созданная
+            преподами!</h1>
+          <div class="description__product">
+            <img class="stars" src="img/stars.svg" width="179" height="65" alt="stars">
+            <p class="description__product-name">Описание&nbsp;уникального&nbsp;торгового&nbsp;предложения или же
+              описание названия того или иного продукта, который на первом экран</p>
+          </div>
+          <button class="button description__button"><span class="button__text">Зарегистрироваться</span></button>
+        </div>
+        <div class="detail">
+          <label class="detail__switch">
+            <input onclick="location.href='#main'" class="detail__checkbox visually-hidden" type="checkbox"
+              name="switch" value="" id="switch-page">
+            <span class="detail__point"></span>
+          </label>
+          <span class="detail__label">ПОДРОБНЕЕ НИЖЕ</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main" id="main">
+    <div class="container-main">
+      <button class="button main__button"><span class="main__button-text">199 преподавателей уже работает на
+          сайте</span></button>
+
+      <section class="programs">
+        <h2 class="programs__title">Выберите свою программу</h2>
+        <div class="programs__education owl-carousel ">
+          <a href="#" class="programs__education-item school">
+            <img class="programs__image" src="img/school.png" alt="школьник" width="413" height="450">
+            <div class="programs__name"><span class="programs__name-text">Школьная<br>программа</span>
+              <span class="programs__about">Подробнее о<br>программе</span></div>
+          </a>
+          <a href="#" class="programs__education-item student">
+            <img class="programs__image" src="img/student.png" alt="студент" width="413" height="450">
+            <div class="programs__name">
+              <span class="programs__name-text">Студенческая<br>программа</span>
+              <span class="programs__about">Подробнее о<br>программе</span>
+            </div>
+          </a>
+          <a href="#" class="programs__education-item add-education">
+            <img class="programs__image" src="img/add_education.png" alt="взрослый человек" width="413" height="450">
+            <div class="programs__name">
+              <span class="programs__name-text">Дополнительное<br>образование</span>
+              <span class="programs__about">Подробнее о<br>программе</span>
+            </div>
+          </a>
+        </div>
+
+      </section>
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+  <script src="js/plugins/open-buttons.js"></script>
+  <script src="js/plugins/owl.carousel.min.js"></script>
+  <script src="js/plugins/carusel.js"></script>
+</body>
+
+</html>
